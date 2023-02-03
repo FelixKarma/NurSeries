@@ -1,0 +1,15 @@
+.taille{
+    height: 60px ;
+    width:200px;
+}
+
+
+.borde{
+background-color: #821111;
+border-radius: 30px ;
+
+}
+body{
+    background-image: url(../image/R.jfif);
+
+}
