@@ -19,7 +19,26 @@ body {
   background-repeat: no-repeat; 
   background-position: top center;
   background-attachment: fixed;
-
+font-family: 'Roboto', sans-serif;
 
 }
 
+div{
+  background-color: rgba(255, 255, 255, 0.568);
+  height: 900px;
+  /* width: ; */
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  border-radius: 20px;
+
+
+  
+}
+
+/* main{
+  background-color: rgba(255, 255, 255, 0.445);
+  height: 930px
+  ;
+} */
