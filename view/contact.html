@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../css/contact.css" rel="stylesheet" type="text/css">
-    <link
-    href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-    rel="stylesheet"
-  />
-
-    <title>Page contact</title>
+    <title>CONTACTEZ-NOUS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="../css/contact.css" rel="stylesheet">
 </head>
 <body>
-    <main>
-   <div>  
-    <h1 class="text-center">CONTACTEZ-NOUS</h1>
-    <p class="text-center">Si vous avez des questions, commentaires ou suggestions, n’hésitez pas à nous contacter. </p>
 
-    <form action="" method="get" class="text-center">
-<label for="mail">Email* <br>
-<input type="email" id="mail" placeholder="exemple@email.com" required>
-</label><br><br>
-<label for="objet">Objet*<br>
-    <input type="text" id="objet" placeholder="Objet de votre message" required>
-</label><br><br>
-<label for="message">Message*<br>
-    <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" required></textarea>
-</label><br><br>
-<input type="button" value="Envoyer" required><br>
-<p>*champs obligatoire</p>
-    </form> 
+    <main class="container" >
+
+        <h1 class="text-center">CONTACTEZ-NOUS</h1>
+    <p class="text-center" >Si vous avez des questions, commentaires ou suggestions, n’hésitez pas à nous contacter. </p>
+
+    <br>
+<div class="mb-3" >
+  <label for="mail" class="form-label">Email*</label>
+  <input type="email" class="form-control" id="mail" placeholder="exemple@email.com"required>
 </div>
-</main>
+<div class="mb-3">
+    <label for="Objet" class="form-label">Objet*</label>
+    <input type="text" class="form-control" id="Objet" placeholder="Objet de votre message"required>
+  </div>
+<div class="mb-3">
+  <label for="Message" class="form-label">Message*</label>
+  <textarea class="form-control" id="Message" rows="6" placeholder="Votre message"required ></textarea>
+  <button type="submit">Envoyez</button> 
+  <!-- manque pour envoyer vers jsp où -->
+</div>
+
+<p class="ligne">*champs obligatoire</p>
+  </main>  
+    
+    
+    
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
