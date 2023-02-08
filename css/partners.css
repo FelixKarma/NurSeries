@@ -6,7 +6,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Prompt', sans-serif;
 }
 
 h1 {
@@ -17,14 +17,23 @@ font-size: 100px;;
 
 .container {
 display: flex;
-flex-flow:row nowrap;
-justify-content:space-evenly;
+flex-direction: row;
+justify-content:space-between;
 align-content: center;
 
-
-
-
-
-
-
+animation: Scroll 30s linear infinite;
 }
+@keyframes Scroll {
+    0% {
+        transform: translateX(-130%);
+    }
+    100% {
+        transform: translateX(130%);
+    }
+    
+}
+
+img {
+        width: 140px;
+}
+

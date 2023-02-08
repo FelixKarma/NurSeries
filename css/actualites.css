@@ -1,0 +1,42 @@
+body {
+    background-image: url("../img/actualités/67222-vikings-tv-shows.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+img {
+    width: 350px;
+    height: 200px;
+
+}
+
+
+.background {
+    background-color: rgba(240, 239, 211, 0.3);
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.txt {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+
+}
