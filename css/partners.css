@@ -1,0 +1,39 @@
+body {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/025/188/472/original/jerome-m3roj-grenda-genkidama.gif?1584958808");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Prompt', sans-serif;
+}
+
+h1 {
+text-align: center;
+font-size: 100px;;
+
+}
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content:space-between;
+align-content: center;
+
+animation: Scroll 30s linear infinite;
+}
+@keyframes Scroll {
+    0% {
+        transform: translateX(-130%);
+    }
+    100% {
+        transform: translateX(130%);
+    }
+    
+}
+
+img {
+        width: 140px;
+}
+

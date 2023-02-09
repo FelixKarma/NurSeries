@@ -1,8 +1,14 @@
 .taille{
-    height: 60px ;
-    width:200px;
+    height: 70px ;
+    width:300px;
+    font-size: 2rem;
 }
+button{
+color: chartreuse;
+font-family: 'Assistant', sans-serif;
+margin :10px;
 
+}
 
 .borde{
 background-color: #821111;
@@ -12,4 +18,39 @@ border-radius: 30px ;
 body{
     background-image: url(../image/R.jfif);
 
+    background-size: cover;     /* regle limage sur toute la page code en dessous  */
+
+
 }
+
+/* .position{ */
+
+    /* position:sticky  ; */
+    /* left: 50%; */
+
+/* } */
+
+
+.deplacementbouton{
+    position: absolute;
+    top: 95%;
+    left: 2%;
+    /* margin-bottom: ; */
+}
+
+.deplacementbouton2{
+    position: absolute;
+    top: 95%;
+    right: 2%;
+ } 
+
+/* surkignement  passage curseur  */
+ button:hover{ 
+
+    color: rgb(6, 6, 6); 
+    background-color: rgb(140, 68, 9); 
+ } 
+
+ a{
+    text-decoration: none;  /* enleve le trait bleu entre les boutons  */
+ }
