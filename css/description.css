@@ -1,0 +1,86 @@
+header{
+    
+    background-image: url(https://i0.wp.com/theplanetd.com/images/game-of-thrones-season-6-poster.jpeg);
+    padding: 280px;
+    margin-right: 1px;
+    
+
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 50px;
+    /* padding-top: 40px; */
+    color: white;
+    margin-left: 100px;
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+
+  }
+  h2{
+  color: white;  
+  margin-left: 100px;
+  }
+
+img{
+    height: 400px;
+    
+    top : 390px
+}
+
+.border{
+    border-radius: 10px;
+  }
+
+  p{
+    font-size: 20px;
+    color: #545454;
+ 
+  }
+  .top{
+    margin-top: 150px;
+    margin-left: 280px;
+    /* display: flex;
+    justify-content: flex-start; */
+  }
+
+  .flex{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+
+  }
+  .centrer{
+  margin-left: 100px;
+ }
+ article{
+    background-color: white;
+    margin-right:300px ;
+    margin-left: 600px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    
+    /* display: flex;
+    align-items: flex-start; */
+ }
+ aside{
+  background-color: white;
+  
+ }
+hr{
+    color: #F5F5F5;
+    /* border: 10px; */
+    /* height: 10px; */
+}
+ 
+.bold{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    
+}
