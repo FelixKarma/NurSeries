@@ -65,7 +65,7 @@ btnOrder.addEventListener('click', () => {
         //On modifie le texte dans le bouton
         btnOrder.innerText = "Par ordre alphabétique";
     }
-console.log(`Où on est : ${where}`);
+    console.log(`Où on est : ${where}`);
     //On appelle la fonction liste()
     liste();
 })
@@ -88,7 +88,7 @@ function liste() {
       <img src="${serie.image}" height="420" width="310">
           <h3>${serie.nom} (${serie.note})</h3>
       </a>`
-      //On insert la div dans la section
+        //On insert la div dans la section
         section.appendChild(newDiv)
     }
 
