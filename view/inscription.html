@@ -1,73 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/inscription.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+    <title>NurSERIE</title>
+</head>
+
+
+<body>
+    <Div class="Navbar">
+    
+    </Div>
+        <main>
+            <h1>INSCRIPTION</h1> >
+            <div class="form">
+                <input type="pseudo" class="pseudo" placeholder="Pseudo*" required><br />
+
+                <input type="nom" class="nom" placeholder="Nom*" required><br />
+
+                <input type="prenom" class="prenom" placeholder="Prénom*" required><br />
+
+                <input type="date" class="DdN" placeholder="Votre Date de Naissance*" required><br />
+
+                <input type="email" class="mail" placeholder="Votre E-Mail*" required><br />
+
+                <input type="password" class="password" placeholder="Votre Mot de passe*" required><br />
+
+                <input type="password" class="password" placeholder="Confirmé Votre Mot de passe*" required><br />
+                <div class="message"></div>
+        <input type="message" class="message" placeholder="message" required><br />
+            <label for="msg">Message :</label>
+    
+            <button class="valider" href="#" >valider</button>
+            </fieldset><br />
+    
+    
+    <div class="Footer">
+    
+    </div>
+    
+    
+        </main>
+    
+    </body>
+    
+    </html>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/inscription.css">
-    <style>
-        /* tabulation  */
-        * {
-            margin-left: 30px;
-            /* marge haut */
-            margin-top: 30px;
-        }
-    </style>
 </head>
-
 <body>
 
-    <form action="#">
-        <label for="fname">VotrePseudo*:<br>
-            <input type="text" placeholder="Pseudo" required>
-        </label><br>
 
-        <!-- nom de famille  -->
-
-        <label for="fname">Votre nom*:<br>
-            <input type="text" placeholder="nom de famille" required>
-        </label><br>
-
-        <!-- Prénom  -->
-
-        <label for="fname">Votre Prénom*:<br>
-            <input type="text" placeholder="Prénom" required>
-        </label><br>
-
-        <!-- Date de Naissance  -->
-        <label for="date">Votre date de Naissance *:<br>
-            <input type="date" id="date"" required>
-        </label><br>
-
-
-<!-- Adresse Mail  -->
-
-        <label for=" fname">Votre Adresse Mail*:<br>
-            <input type="text" placeholder="E-Mail" required>
-        </label><br>
-
-        <!-- Mot de Passe  -->
-
-        <label for="fname">Votre Mot de Passe*:<br>
-            <input type="text" placeholder="Mot de Passe" required>
-        </label><br>
-
-
-        <!-- Confirmation Mot de passe  -->
-
-        <label for="fname">Confirmé Votre Mot de Passe*:<br>
-            <input type="text" placeholder="Confirmation Mot de Passe" required>
-        </label><br>
-
-
-        <!--   aceptation , refus , envoie ma demande   -->
-        <input type="submit" value="Envoyer ma demande">
-
-
-
+    <form action="/ma-page-de-traitement" method="post">
+        <div class="pseudo">
+            <input type="pseudo" class="pseudo" placeholder="pseudo" required><br />
+            <label for="name">pseudo :</label>
+        </div>
+        <div class="nom">
+            <input type="nom" class="nom" placeholder="nom" required><br />
+            <label for="name">Nom :</label>
+        </div>
+        <div class="prenom">
+            <input type="prenom" class="prenom" placeholder="prenom" required><br />
+            <label for="name">Prénom :</label>
+        </div>
+        <div class="DdN">
+            <input type="DdN" class="DdN" placeholder="DdN" required><br />
+            <label for="date">Date de naissance :</label>
+        </div>
+        <div class="mail">
+            <input type="mail" class="mail" placeholder="E-mail" required><br />
+            <label for="mail">e-mail&nbsp;:</label>
+        </div>
+        <div class="MdP">
+            <input type="MdP" class="MdP" placeholder="MdP" required><br />
+            <label for="name">Mot de Passe :</label>
+        </div>
+        <div class="MdPC">
+            <input type="MdPC" class="MdPC" placeholder="MdPC" required><br />
+            <label for="name">Veuillez confirmer votre Mot de Passe :</label>
+        </div>
+        <div class="message"></div>
+        <input type="message" class="message" placeholder="message" required><br />
+            <label for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+        <div class="button">
+            <button type="submit">Envoyer le message</button>
+        </div>
     </form>
-</body>
 
+
+    <form action="/ma-page-de-traitement" method="post">
+        <div class="pseudo-">
+            <input type="pseudo" class="pseudo" placeholder="pseudo" required><br />
+            <label for="name">pseudo :</label>
+        </div>
+        <div class="nom-">
+            <input type="nom" class="nom" placeholder="nom" required><br />
+            <label for="name">Nom :</label>
+        </div>
+        <div class="prenom-">
+            <input type="prenom" class="prenom" placeholder="prenom" required><br />
+            <label for="name">Prénom :</label>
+        </div>
+        <div class="DdN-">
+            <input type="DdN" class="DdN" placeholder="DdN" required><br />
+            <label for="date">Date de naissance :</label>
+        </div>
+        <div class="mail-">
+            <input type="mail" class="mail" placeholder="E-mail" required><br />
+            <label for="mail">e-mail&nbsp;:</label>
+        </div>
+        <div class="MdP-">
+            <input type="MdP" class="MdP" placeholder="MdP" required><br />
+            <label for="name">Mot de Passe :</label> -->
+        <!-- </div>
+        <div class="MdPC-">
+            <input type="MdPC" class="MdPC" placeholder="MdPC" required><br />
+            <label for="name">Veuillez confirmer votre Mot de Passe :</label>
+        </div>
+        
+    </form>
+    <table>
+<div class="tableaux">
+    <--! tableau 1-->
+<!-- </div>
+<div class="tableaux">
+    <--! tableaux 2-->
+<!-- </div>
+    <table class="floatleft third">
+        <caption>table 1</caption>
+        <tbody>
+        </tbody>
+        </table></caption>
+    </table>
+    <table class="floatLeft third">
+        <caption>table 2</caption>
+        <tbody>
+        </tbody>
+    </table>
+    <table>
+        <tr>
+            <td>pseudo-</td>
+            <td>Peudo</td>
+        </tr>
+        <tr>
+            <td>Nom-</td>
+        </tr>
+        <tr>
+            <td>Prénom-</td>
+        </tr>
+        <tr>
+            <td>Date de Naissance-</td>
+        </tr>
+        <tr>
+            <td>E-Mail-</td>
+        </tr>
+        <tr>
+            <td>Mot de Passe-</td>
+        </tr>
+        <tr>
+            <td>Confirmé Votre Mot de Passe-</td>
+        </tr>
+        <tr>
+            <td>pseudo-</td>
+        </tr>
+    </table>
+
+    <html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title></title>
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<style>
+TABLE {
+float : left;
+margin-left : 5px;
+}
+</style>
+</head>
+<body>
+<table border="5">
+<tr>
+<td> pseudo </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+</table>
+<table border="5">
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+</table>
+<br clear="left">
+<table border="5">
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td> </td>
+<td> </td>
+</tr>
+</table>
+</body>
 </html>
+
+
+
+
+    
+    
+    
+    
+</body>
+</html>
+
+ --> --> -->
