@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/header.css">
-
+    <link rel="stylesheet" href="../css/essaiheader.css" />
 </head>
+
 <body>
-    <nav class="flex-row justify-between align-center">
+    <nav class="flex-row">
+        <img class="opa img" src="../image/clapet.png " height="100" width="100" alt="" />
+        <div>
+            <div id="wrap" class="flex-row justify-between align-center"> <!-- grd barre  -->
 
-        <input id="searchbar" onkeyup="search_sèries()" type="text"
-            name="search" placeholder="Search sèries..">
-    <div id="wrap">   <!-- grande barre  -->
+                <div class="deplacementbouton">
+                    <a href="connexion."><button class="taille borde">connexion</button>
+                    </a>
+                </div>
+                <div class="deplacementbouton2">
+                    <a href="Inscription"><button class="taille borde">Inscription</button>
+                    </a>
+                </div>
+            </div>
 
-         <div class="deplacementbouton">
+            <div>
+                <img class="" src="../image/bande2.png " height="50" width="1365" alt="" />
+            </div>
 
-            <a href="connexion."><button class="taille borde">connexion</button> </a>
-
+            <div class="text-center">
+                <input id="searchbar" type="text" name="search"
+                    placeholder="Search séries.." value=""
+                    />
+                    
+            </div>
         </div>
-        <div class="deplacementbouton2">
-
-             <a href="Inscription"><button class="taille borde">Inscription</button> </a>
-         </div>
-
-   </div>
-
-   
-     
     </nav>
-   
+    <script src="essaiheader.js" type="text/javascript"></script>
+
 </body>
+
 </html>

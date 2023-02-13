@@ -1,0 +1,132 @@
+body {
+    background-image: url("../image/imgConnexion.jpg");
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+    text-align: center;
+    color: rgb(238, 242, 245);
+
+}
+
+.email {
+    border-radius: 150px;
+    opacity: 0.5;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.password {
+    border-radius: 15px;
+    opacity: 0.5;
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    padding: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.oublié {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(242, 243, 243);
+
+}
+
+.valider {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    padding: 15px;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.valider:hover {
+    color: black;
+    background-color: white;
+
+}
+
+
+
+
+
+
+
+
+.footer-main {
+    background-color: #9a9b9c;
+    height: 127px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-NurSÉRIES {
+    align-items: center;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-logo p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-main p .footer-text-links {
+    content: "|";
+    display: inline-block;
+    color: black;
+}
+
+.footer-main p.footer-text-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.footer-main .footer-text-links a:before {
+    content: "|";
+    font-size: 25px;
+    left: 0;
+    color: black;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.footer-main .footer-text-links .link-1:before {
+    content: none;
+}
+
+.footer-haut-page {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-text {
+    margin-top: 25px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 30px;
+}
