@@ -1,0 +1,121 @@
+main {
+  background-size: contain;
+  /* regle limage sur toute la page code en dessous  */
+
+}
+
+.taille {
+  height: 20px;
+  width: 95px;
+  font-size: 1rem;
+}
+
+button {
+  color: rgba(14, 13, 13, 0.424);
+  font-family: 'height 5px.align-center', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif, sans-serif, ;
+  font-size: 80px;
+  margin: 10px;
+}
+
+.borde {
+  background-color: #f1ebeb;
+  border-radius: 30px;
+
+}
+
+.deplacementbouton,.deplacementbouton2 {
+ display: inline;
+}
+
+
+
+/* surkignement  passage curseur  */
+button:hover {
+
+  color: rgb(245, 150, 150);
+  background-color: rgb(246, 242, 239);
+}
+
+/* button:hover { 
+
+  color: rgb(225, 46, 49);
+  background-color: rgb(140, 68, 9);
+ }  */
+
+/* essai programe */
+#wrap {
+  width: 100%;
+  margin: 0;
+  z-index: 99;
+  
+}
+
+/* 
+    Alignez les éléments de notre menu horizontalement en haut de la page en définissant la propriété float à "left".
+ */
+
+/* .navbar li { 
+  height: 4cm;
+  width: max-content;
+  float: left;
+  text-align: center;
+  list-style: none;
+  font: normal bold 13px/1em Arial, Verdana, Helvetica;
+  padding: 0;
+  margin-top: 0%;
+  background-color: #968c8c;
+ */
+/* 
+    Stylisez la reste des balises d'ancrage.
+ */
+/* .navbar a { 
+  padding: 58px 0;
+  border-left: 1px solid #5309e6;
+  text-decoration: none;
+  color: rgb(127, 7, 7);
+  display: block;
+ } */
+
+#searchbar {
+  margin-left:center;
+  padding: 15px;
+  border-radius: 25px;
+  height: 2px;;
+align-items: center;
+}
+
+input[type=text] {
+  width: 10%;
+  -webkit-transition: width 0.15s ease-in-out;
+  transition: width 0.15s ease-in-out;
+}
+
+nav {
+   /* background-image: url(../image/bande2.png);   image a mettre   */
+height: 4cm;
+background-color: #9a9b9c;
+}
+
+input[type=text]:focus {
+  width: 30%;
+}
+
+.flex-row{
+  display: flex;
+} 
+
+.justify-between{
+  justify-content: space-around ;
+} 
+
+.align-center{
+  align-items: center;      /*  w de romain */
+}
+
+.text-center{
+  text-align: center;
+}
+ 
+/* .opa{
+  opacity: 1;
+} */
