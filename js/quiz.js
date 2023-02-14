@@ -1,6 +1,6 @@
 const quizData = [
     {
-        question: "1.Dans la série "The Wire", quel est le personnage préféré de Barack Obama ?",
+        question: '1.Dans la série "The Wire", quel est le personnage préféré de Barack Obama ?',
         a: "Omar Little",
         b: "Jimmy Mc Nulty",
         c: "Avon Barksdale",
@@ -8,7 +8,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "2.Quel est l'animal empaillé de JD dans la série "Scrubs" ?",
+        question: '2.Quel est l\'animal empaillé de JD dans la série "Scrubs" ?',
         a: "Un loup",
         b: "Un renard",
         c: "Un chat",
@@ -16,7 +16,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "3.De quelle série est issue la phrase "La Nuit se regroupe et voici que débute ma garde" ?",
+        question: '3.De quelle série est issue la phrase "La Nuit se regroupe et voici que débute ma garde" ?',
         a: "The Witcher",
         b: "Games Of Thrones",
         c: "Vikings",
@@ -24,7 +24,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "4.Comment s'appelle le chef de la police dans la série "Les Simpson" ?",
+        question: '4.Comment s\'appelle le chef de la police dans la série "Les Simpson" ?',
         a: "Otto Bus",
         b: "Clancy Wiggums",
         c: "Ned Flanders",
@@ -32,7 +32,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "5.De combien d'épisodes est composée la dernière saison de "Breaking Bad"",
+        question: '5.De combien d\'épisodes est composée la dernière saison de "Breaking Bad"',
         a: "16",
         b: "15",
         c: "14",
@@ -40,7 +40,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "6.Quelle série,lancée en 2013 est connue pour être la première série Netflix ?",
+        question: '6.Quelle série,lancée en 2013 est connue pour être la première série Netflix ?',
         a: "Narcos",
         b: "The Crown",
         c: "House Of Cards",
@@ -48,7 +48,7 @@ const quizData = [
         correct: "b",
     },
     {
-        question: "7.Quel célèbre artiste est représenté sur les masques de la série "Casa de Papel" ?",
+        question: '7.Quel célèbre artiste est représenté sur les masques de la série "Casa de Papel" ?',
         a: "Salvador Dali",
         b: "Pablo Picasso",
         c: "Paco Rabanne",
@@ -56,7 +56,7 @@ const quizData = [
         correct: "a",
     },
     {
-        question: "8.Dans quelle série Netflix découvrons nous les possibles dérives des écrans que nous utilisons tout les jours"?,
+        question: '8.Dans quelle série Netflix découvrons nous les possibles dérives des écrans que nous utilisons tout les jours"?',
         a: "The OA",
         b: "Mind Hunter",
         c: "God Bless",
@@ -64,7 +64,7 @@ const quizData = [
         correct: "d",
     },
     {
-        question: "9.Laquelle de ces séries n'est pas une série originale Netflix ?",
+        question: '9.Laquelle de ces séries n\'est pas une série originale Netflix ?',
         a: "Les Nouvelles Aventures de Sabrina",
         b: "The Boys",
         c: "Messiah",
