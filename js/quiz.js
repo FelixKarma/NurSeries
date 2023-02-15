@@ -45,7 +45,7 @@ const quizData = [
         b: "The Crown",
         c: "House Of Cards",
         d: "Mad Men",
-        correct: "b",
+        correct: "c",
     },
     {
         question: '7.Quel célèbre artiste est représenté sur les masques de la série "Casa de Papel" ?',
@@ -127,6 +127,8 @@ submitBtn.addEventListener('click', () => {
             quiz.innerHTML = `
             <h2>Vous avez répondu correctement à ${score}/${quizData.length} questions !
             <button onclick="location.reload()">Reload</button>
+            <a href="Pages bonne réponses.html"><button>Voir les bonnes réponses</button></a>
+            <a href="acceuil.html"><button >Retour à la page d'accueil</button></a>
             `
         }
     }
