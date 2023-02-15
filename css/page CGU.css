@@ -2,6 +2,7 @@ body{
     background-image: url("../image/cgu\ 2.jpg");
     background-size: 100%;
     background-attachment: fixed;
+   
   
 }
 main p{
@@ -20,13 +21,14 @@ main p{
 .footer-main {
     background-color: #9a9b9c;
     height: 127px;
-    margin: none;
+  
   }
   
   #container {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  
   }
   
   .footer-NurSÉRIES {
