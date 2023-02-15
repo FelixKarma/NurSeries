@@ -19,7 +19,6 @@ div.a {
     left: 30%;
     opacity: 70%;
     
-
 }
 
 .quiz-hearder {
@@ -40,6 +39,7 @@ ul {
 ul li {
     font-size: 1.2rem;
     margin: 1rem 0;
+    background-color: #a9b6b8;
 }
 
 ul li label {
@@ -59,7 +59,7 @@ button {
 }
 
 button:hover {
-    background-color: #a9b6b8;
+    background-color: #848885;
     opacity: 100%;
 }
 
@@ -67,4 +67,8 @@ button:focus {
     outline: none;
     opacity: 100%;
     background-color: #44b927;
+}
+
+.flex{
+    display: flex;
 }

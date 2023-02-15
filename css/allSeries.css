@@ -74,3 +74,68 @@ h3{
 #order:active {
     background-color: #999;
 }
+
+
+.footer-main {
+    background-color: #9a9b9c;
+    height: 127px;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .footer-NurSÉRIES {
+    align-items: center;
+  }
+  
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  
+  .footer-logo p {
+    margin-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-main p .footer-text-links {
+    content: "|";
+    display: inline-block;
+    color: black;
+  }
+  
+  .footer-main p.footer-text-links a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .footer-main .footer-text-links a:before {
+    content: "|";
+    font-size: 25px;
+    left: 0;
+    color: black;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-main .footer-text-links .link-1:before {
+    content: none;
+  }
+  
+  .footer-haut-page {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-text {
+    margin-top: 25px;
+  }
+  
+  .copyright {
+    text-align: center;
+    font-size: 9px;
+    margin-top: 30px;
+  }
