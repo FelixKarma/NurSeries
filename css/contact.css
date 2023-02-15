@@ -1,9 +1,10 @@
 body {
   background-image: url("https://wallpapercave.com/wp/wp2141407.jpg");
-  background-size: 1980px;
+  background-size: 2300px;
   background-repeat: no-repeat; 
   background-position: top center;
   background-attachment: fixed;
+  
 /* font-family: 'Roboto', sans-serif; */
 
 }
@@ -23,7 +24,7 @@ main{
     text-align: center;
 }
 
-div{
+.marge{
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 20px;
@@ -45,7 +46,7 @@ p{
   }
   
 
-button {
+.button {
     background-color: #bcbbb3;
     color: rgb(1, 1, 12);
     border: solid 1px;
