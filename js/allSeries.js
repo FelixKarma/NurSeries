@@ -27,7 +27,7 @@ const series = [
     new Serie("The Haunting of Hill House", 1.7, 2018, "https://fr.web.img6.acsta.net/c_310_420/pictures/18/09/19/18/46/2766026.jpg"),
     new Serie("American Horror Story", 2.1, 2011, "https://fr.web.img6.acsta.net/c_310_420/pictures/22/10/03/14/11/0328175.jpg"),
     new Serie("Sherlock", 4.2, 2010, "https://fr.web.img6.acsta.net/c_310_420/medias/nmedia/18/67/70/22/19227477.jpg"),
-    new Serie("The Wire", 2.9, 2021, "https://fr.web.img2.acsta.net/c_310_420/pictures/21/08/26/17/04/4531787.jpg"),
+    new Serie("The Wire", 2.9, 2002, "https://fr.web.img2.acsta.net/c_310_420/pictures/21/08/26/17/04/4531787.jpg"),
     new Serie("The Sinner", 1.6, 2017, "https://fr.web.img5.acsta.net/c_310_420/pictures/21/01/29/17/27/2896783.jpg"),
     new Serie("Big Bang Theory", 0.4, 2007, "https://fr.web.img3.acsta.net/c_310_420/pictures/18/11/06/15/36/0408812.jpg"),
     new Serie("Les Simpsons", 4.5, 1989, "https://fr.web.img3.acsta.net/c_310_420/pictures/20/10/01/11/26/1905965.jpg"),
