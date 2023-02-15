@@ -4,7 +4,6 @@ header{
     padding: 280px;
     margin-right: 1px;
     
-
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -27,9 +26,8 @@ h1{
   margin-left: 100px;
   }
 
-.taille{
+.header-size{
     height: 400px;
-    
     top : 390px
 }
 
@@ -101,4 +99,16 @@ textarea{
   border-radius: 20px;
   padding: 10px;
   resize: none;
+}
+.rating {
+  width: 180px;
+}
+
+.rating__star {
+  cursor: pointer;
+  color: #dabd18b2;
+}
+
+.milieu{
+  margin-left: 75px;
 }
