@@ -7,7 +7,7 @@ header{
 
 }
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
     background-color: #F5F5F5;
     margin: 0px;
     overflow-x: hidden;
@@ -27,7 +27,7 @@ h1{
   margin-left: 100px;
   }
 
-img{
+.taille{
     height: 400px;
     
     top : 390px
@@ -37,11 +37,12 @@ img{
     border-radius: 10px;
   }
 
-  p{
-    font-size: 20px;
+  .color{
+    /* font-size: 20px; */
     color: #545454;
  
   }
+
   .top{
     margin-top: 150px;
     margin-left: 280px;
@@ -60,17 +61,19 @@ img{
  }
  article{
     background-color: white;
-    margin-right:300px ;
-    margin-left: 600px;
-    padding: 15px;
+    margin-right:200px ;
+    margin-left: 65px;
+    padding: 20px;
     font-family: 'Roboto', sans-serif;
-    
+    font-size: 20px;
     /* display: flex;
     align-items: flex-start; */
  }
  aside{
-  background-color: white;
-  
+  min-width: 280px;
+  font-size: 20px;
+  /* border-right: solid  #54545463;
+  border-width: 1px; */
  }
 hr{
     color: #F5F5F5;
@@ -78,9 +81,24 @@ hr{
     /* height: 10px; */
 }
  
-.bold{
-    font-weight: bold;
+span{
+    font-weight: 500;
     color: black;
-    font-size: 20px;
+    /* font-size: 20px; */
     
+}
+section {
+  background-color: white;
+  /* width: 280px; */
+  padding: 15px;
+  padding-top: 1px;
+  display: flex;
+  margin-right: 100px;
+
+}
+textarea{
+  border: solid 2px #545454b4;
+  border-radius: 20px;
+  padding: 10px;
+  resize: none;
 }
