@@ -84,7 +84,7 @@ function liste() {
         newDiv.setAttribute("class", `bidon m-5px my-10px ${serie.nom}`);
         //On intègre des images et texte dans la div
         newDiv.innerHTML = `
-    <a href="details.html#${serie.nom}" class="hide" >
+    <a href="description.html#${serie.nom}" class="hide" >
       <img src="${serie.image}" height="420" width="310">
           <h3>${serie.nom} (${serie.note})</h3>
       </a>`
