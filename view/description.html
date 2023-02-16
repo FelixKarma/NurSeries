@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="../css/description.css" />
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/commentaires.css">
+
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e8829b28ab.js" crossorigin="anonymous"></script>
@@ -97,14 +99,27 @@
           avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le
           continent pour s'emparer du Trône de Fer, le symbole du pouvoir absolu.
           <br><br><br><br>
-          <span> Donner mon avis : </span><br><br><br>
-          <textarea name="avis" id="avis" cols="100" rows="10" placeholder="...."></textarea><br><br>
+          <!-- <span> Donner mon avis : </span><br><br><br>
+          <textarea name="avis" id="avis" cols="100" rows="10" placeholder="...."></textarea><br><br> -->
 
           <span> Avis des spectateurs </span>
           <hr>
           <br><br>
 
         </div>
+        <div class="container">
+
+          <div class="input-group">
+              <span class="user-icon">&nbsp;</span>
+              <input autocomplete="off" id="main-comment" name="comment" placeholder="Donner mon avis..."
+                     class="comment-box"/>
+          </div>
+      
+          <div id="comments">
+      
+          </div>
+      
+      </div>
       </article>
     </section>
     <br><br>
@@ -150,6 +165,10 @@
 </footer>
 
   <script src="../js/starRating.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/commentaires.js"></script>
+
+
 
 
 </body>
