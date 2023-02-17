@@ -7,17 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/description.css" />
   <link rel="stylesheet" href="../css/footer.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/commentaires.css">
 
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e8829b28ab.js" crossorigin="anonymous"></script>
+
+
+  <title>NurSÉRIES: Game of Thrones </title>
 </head>
 
 <body>
-
+  
   <header>
     <span class="flex">
-      <img src="../image/gots1.jpg" alt="affiche saison1" class="border taille" />
+      <img src="../image/gots1.jpg" alt="affiche saison1" class="border header-size" />
       <div>
         <h1>Game of Thrones</h1>
         <h2>(2011-2019)</h2>
@@ -29,16 +33,30 @@
     <section class="top">
       <aside>
         <p class="color">Fantasy, Drame, Aventure <br> <br> Format : 50 min <br><br> 8 saisons (Terminée) <br><br> </p>
-        <div class="color"><p class="centrer" > Note :</p></div>
+        <div class="color">
+          <p class="centrer"> Note :</p>
+        </div>
         <p class="color"> Presse<br> Spectateurs <br></p>
-        <div class="color"><p class="centrer"> Ma note :</p></div>
+        <div class="color">
+          <p class="centrer"> Ma note :</p>
+        </div>
+        <div class="milieu">
+          <div class="rating">
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+            <i class="rating__star far fa-star"></i>
+          </div>
+        </div>
       </aside>
 
       <article>
         <div>
           <span> Créée par</span> David Benioff et D.B. Weiss <br><br>
           <span>Pays d’origine :</span> USA <br><br>
-          <span>Avec : </span>Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington, Sophie Turner, Maisie Williams, Nikolaj
+          <span>Avec : </span>Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington, Sophie Turner, Maisie Williams,
+          Nikolaj
           Coster-Waldau, Iain Glen ....<br><br>
           <span>Diffuseur :</span> HBO
         </div>
@@ -46,30 +64,41 @@
         <hr>
         <br>
         <div>
-         <span> SYNOPSIS </span>
+          <span> SYNOPSIS </span>
           <br><br>
-          
+
           Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où
           l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent
           aux portes du Royaume des Sept Couronnes. Après un été de dix années, un hiver rigoureux s'abat sur le Royaume
           avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le
           continent pour s'emparer du Trône de Fer, le symbole du pouvoir absolu.
           <br><br><br><br>
-          <span>  Donner mon avis : </span><br><br><br>
-          <textarea name="avis" id="avis" cols="100" rows="10" placeholder="...."></textarea><br><br>
-           
-           <span> Avis des spectateurs </span>
+          <!-- <span> Donner mon avis : </span><br><br><br>
+          <textarea name="avis" id="avis" cols="100" rows="10" placeholder="...."></textarea><br><br> -->
+
+          <span> Avis des spectateurs </span>
           <hr>
           <br><br>
 
         </div>
+        <div class="container">
+
+          <div class="input-group">
+              <span class="user-icon">&nbsp;</span>
+              <input autocomplete="off" id="main-comment" name="comment" placeholder="Donner mon avis..."
+                     class="comment-box"/>
+          </div>
+      
+          <div id="comments">
+      
+          </div>
+      
+      </div>
       </article>
     </section>
     <br><br>
   </main>
-  
-</body>
-<footer class="footer-main">
+  <footer class="footer-main">
     <div id="container">
         <div class="footer-logo">
             <p>Suivez-Nous: </p>
@@ -86,12 +115,12 @@
         <div class="footer-text">
 
             <p class="footer-text-links">
-                <a class="link-1" href="#">Besoin d'Aide</a>
-                <a href="#">CGU</a>
-                <a href="#">À Propos</a>
-                <a href="#">Nous Contacter</a>
-                <a href="#">Partenaires</a>
-                <a href="#">Mentions Légales</a>
+                <a class="link-1" href="../view/Page besoin d'aide.html">Besoin d'Aide</a>
+                <a href="../view/page CGU.html">CGU</a>
+                <a href="../view/page A propos.html">À Propos</a>
+                <a href="../view/contact.html">Nous Contacter</a>
+                <a href="../view/partenaire.html">Partenaires</a>
+             
 
             <p class="copyright">NurSÉRIES &copy; 2023</p>
 
@@ -103,9 +132,19 @@
         </div>
 
         <div class="footer-haut-page">
-            <a class="top" href="#header"><img src="../image/haut de page.png" height="60" width="60"></a>
+            <a class="footer-top" href="#header"><img src="../image/haut de page.png" height="60" width="60"></a>
         </div>
     </div>
 
 </footer>
+
+  <script src="../js/starRating.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/commentaires.js"></script>
+
+
+
+
+</body>
+
 </html>

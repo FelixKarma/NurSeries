@@ -1,8 +1,3 @@
-body{
-  margin: 0;
-}
-
-
 .borde {
   background-color: #f1ebeb;
   border-radius: 30px;
@@ -12,7 +7,7 @@ body{
 .deplacementbouton,
 .deplacementbouton2 {
   display: inline;
-  margin-top: 1.5%;
+ 
 }
 
 #wrap {
@@ -27,10 +22,10 @@ body{
 
 
 #searchbar {
-  margin-left: center;
+  /* margin-left: center; */
   padding: 10px;
   border-radius: 25px;
-  height: 5px;
+  height: 8px;
   ;
   align-items: center;
   font: normal bold 13px/1em Arial, Verdana, Helvetica;
@@ -47,6 +42,11 @@ nav {
   z-index: 99;
   height: 4cm;
   background-color: #9a9b9c;
+  margin-left: 0.%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  
 }
 
 input[type=text]:focus {
@@ -75,5 +75,7 @@ input[type=text]:focus {
 }
 
 .img {
-  margin-top: 0.5%;
+  margin-top: 0.2%;
+  margin-right: 0%;
+  margin-left: 0.2%;
 }
