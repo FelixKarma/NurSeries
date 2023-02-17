@@ -1,0 +1,148 @@
+/* * {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=text]:invalid {
+    border: red solid 1px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.container > label {
+   text-align: center;
+}
+#comment{
+    background-color: white;
+}
+#addComments {
+    width: 20%;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    align-self: center;
+}
+
+.wrapper > button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: white;
+    color: black;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #F1F1F1; */
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.oveflow-auto {
+    overflow: auto;
+}
+
+.container {
+    padding: 10px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+/* specific page style */
+
+.input-group {
+    overflow: auto;
+}
+
+.user-icon {
+    width: 10%;
+    /* display: inline-block; */
+    float: left;
+    height: 64px;
+    background: url('../image/user_icon.png') no-repeat center center;
+}
+
+.comment-section {
+    margin-top: 15px;
+    overflow: auto;
+    /* border: solid 1px #797979; */
+    border-radius: 5px;
+}
+
+.comment-box {
+    padding: 15px;
+    font-size: 1.1em;
+    width: 90%;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.comment-box.reply-comment {
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.comment-details {
+    width: 90%;
+    float: left;
+}
+
+.comment-header {
+    color: #797979;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.comment-body {
+    padding: 5px 0;
+    line-height: 150%;
+    
+}
+
+.comment-feature {
+    color: #909090;
+}
+
+.comment-feature > span {
+    margin-right: 10px;
+}
+
+.comment-feature .reply-btn {
+    margin-left: 10px;
+    font-size: 0.8em;
+}

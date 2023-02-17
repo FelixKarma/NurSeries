@@ -1,4 +1,4 @@
-let series = ["game of thrones", "doctor who", "alice",
+let nomSeries = ["game of thrones", "doctor who", "alice",
     "stargate", "the expanse", "dark", "vikings", "sons of anarch", "la casa de papel", "the last of Us", "the walking dead", "the haunting of hill house", "american horror story", "sherlock", "the wire", "the sinner", "big bang theory", "les simpsons", "the office", "malcolm", "peaky blinders", "chernobyl"];
 
 // Récupération du mot recherché
@@ -13,18 +13,18 @@ search.addEventListener("keydown", function (event) {
 
     //Detection de la touche entrée
     if (event.key === "Enter") {
-        //Parcours le tableau series grace à for of
-        for (let serie of series) {
+        //Parcours le tableau nomSeries grace à for of
+        for (let nomSerie of nomSeries) {
 
             // comparaison si la recherche egale a la liste tableau 
 
-            if (serie == recherche) { //On compare la recherche avec les différents éléments du tableau
+            if (nomSerie == recherche) { //On compare la recherche avec les différents éléments du tableau
 
 
                 //On redirige vers la page recherchée si trouvée
-                // document.location.assign(`${serie}.html`);  // exco precedent 
+                // document.location.assign(`${nomSerie}.html`);  // exco precedent 
 
-                document.location.assign(`description.html#${serie}`);
+                document.location.assign(`description.html#${nomSerie}`);
 
                 //On passe reponse à true pour dire que c'est bon
                 reponse = true;
