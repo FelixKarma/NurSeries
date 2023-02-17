@@ -12,30 +12,30 @@ h1 {
   font-size: 80px;
   text-align: center;
   color: rgb(4, 0, 16);
-  html, body {
-    height: 100%;
-  }
-  
-  body {
-    overflow: hidden;
-  }
-  
-  .box {
-    max-width: 100vw;
-    padding: 30px;
-    margin: 0 auto;
-    position: relative;
-    top: 0%;
-    font-size: 0px;
-    line-height: 1.5;
-    transform: translateY(-50%);
-    perspective: 400px;
-  }
-  
-  .source {
-    color: skyblue;
-    margin: 0 auto;
-  }
+}
+html, body {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.box {
+  max-width: 100vw;
+  padding: 30px;
+  margin: 0 auto;
+  position: relative;
+  top: 0%;
+  font-size: 0px;
+  line-height: 1.5;
+  transform: translateY(-50%);
+  perspective: 400px;
+}
+
+.source {
+  color: skyblue;
+  margin: 0 auto;
 }
 
 .div {
