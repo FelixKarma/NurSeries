@@ -1,124 +1,67 @@
-
-
-.copyright {
-  text-align: center;
-  font-size: 9px;
-  margin-top: 30px;
-}
-body{
-  margin: 0;
-}
-
-
-.borde {
-  background-color: #f1ebeb;
-  border-radius: 30px;
-
-}
-
-.deplacementbouton,
-.deplacementbouton2 {
-  display: inline;
-  margin-top: 1.5%;
-}
-
-#wrap {
-  width: 100%;
-  margin: 0;
-  z-index: 99;
-  text-align: center;
-  font-size: 13px;
-  font-family: Arial, Verdana, Helvetica;
-  margin-top: 1%;
-}
-
-
-#searchbar {
-  margin-left: center;
-  padding: 10px;
-  border-radius: 25px;
-  height: 5px;
-  ;
-  align-items: center;
-  font: normal bold 13px/1em Arial, Verdana, Helvetica;
-
-}
-
-input[type=text] {
-  width: 10%;
-  -webkit-transition: width 0.15s ease-in-out;
-  transition: width 0.15s ease-in-out;
-}
-
-nav {
-  z-index: 99;
-  height: 4cm;
-  background-color: #9a9b9c;
-}
-
-input[type=text]:focus {
-  width: 30%;
-}
-
-.flex-row {
-  display: flex;
-}
-
-.justify-between {
-  justify-content: space-around;
-}
-
-.align-center {
-  align-items: center;
-  /*   */
-}
-
-.text-center {
-  text-align: center;
-}
-
-.opa {
-  /* opacity: 0.5; */
-}
-
-.img {
-  margin-top: 0.5%;
-}
-
-
 body {
-  
-  background-image: url("../image/doc1.jpg");
-  
-  
-      }
+
+  background-image: url("../image/doctor who3.jpg");
+  background-size: 1680px 900px;
+  font: 1rem 'Fira Sans', sans-serif;
+  margin: 0;
+  background-attachment: fixed;
+}
 
 h1 {
+  font-family: 'Rammetto One Sans', sans-serif;font-display: ;
   font-size: 80px;
   text-align: center;
-  color: white;
-
+  color: rgb(4, 0, 16);
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .box {
+    max-width: 100vw;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 0%;
+    font-size: 0px;
+    line-height: 1.5;
+    transform: translateY(-50%);
+    perspective: 400px;
+  }
+  
+  .source {
+    color: skyblue;
+    margin: 0 auto;
+  }
 }
-div {
-  font: 1rem 'Fira Sans', sans-serif;
-  margin-bottom: 0.5rem;
+
+.div {
+  font: 1rem 'monoton', sans-serif;
+
   color: azure;
   text-align: left;
-  width: 1500px;
-}
-top: 30px;
-left: 30px;
-
-p { 
-  font: 1rem 'Fira Sans', sans-serif;
-  margin-bottom: 0.5rem;
-  font-size: 10px;
-  text-align: left;
-  color: white;
-  width: 1500px;
+  width: 300px;
 }
 
-     
+.centrer {
+  margin-left: 40%;
+}
+
+p {
+  font: 1rem 'monoton', sans-serif;
+
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  /* text-align: center; */
+  color: rgb(1, 2, 0);
+  max-width: 500px;
+}
+
+
 .pseudo {
   border-radius: 15px;
   font-size: 25px;
@@ -128,7 +71,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 }
 
@@ -141,7 +84,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 }
 
@@ -154,7 +97,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 
 }
@@ -168,7 +111,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 }
 
@@ -181,7 +124,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 }
 
@@ -194,7 +137,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 }
 
@@ -207,7 +150,7 @@ p {
   margin-left: auto;
   margin-right: auto;
   color: white;
-  width: 500px;
+  width: 300px;
   background-color: #3b2eea;
 }
 
@@ -228,68 +171,4 @@ p {
 .valider:hover {
   color: rgb(0, 0, 0);
   background-color: white;
-}
-p {
-    margin: 10px 0;
-    padding: 5px;
-    border: 1px solid #999;
-}
-
-
-.footer-main {
-  background-color: #9a9b9c;
-  height: 127px;
-}
-
-#container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.footer-NurSÉRIES {
-  align-items: center;
-}
-
-.footer-logo {
-  margin-bottom: 30px;
-}
-
-.footer-logo p {
-  margin-left: 10px;
-  margin-bottom: 20px;
-}
-
-.footer-main p .footer-text-links {
-  content: "|";
-  display: inline-block;
-  color: black;
-}
-
-.footer-main p.footer-text-links a {
-  display: inline-block;
-  text-decoration: none;
-  color: black;
-}
-
-.footer-main .footer-text-links a:before {
-  content: "|";
-  font-size: 25px;
-  left: 0;
-  color: black;
-  display: inline-block;
-  padding-right: 5px;
-}
-
-.footer-main .footer-text-links .link-1:before {
-  content: none;
-}
-
-.footer-haut-page {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.footer-text {
-  margin-top: 25px;
 }
