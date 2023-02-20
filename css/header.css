@@ -1,3 +1,7 @@
+body{
+  margin: 0;
+}
+
 .borde {
   background-color: #f1ebeb;
   border-radius: 30px;
@@ -42,10 +46,8 @@ nav {
   z-index: 99;
   height: 4cm;
   background-color: #9a9b9c;
-  margin-left: 0.%;
-  margin-right: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   
 }
 
@@ -61,6 +63,14 @@ input[type=text]:focus {
   justify-content: space-around;
 }
 
+.between{
+  justify-content: space-between;
+}
+
+.width-ecran{
+  width: 100%;
+}
+
 .align-center {
   align-items: center;
   /*   */
@@ -70,8 +80,9 @@ input[type=text]:focus {
   text-align: center;
 }
 
-.opa {
-  /* opacity: 0.5; */
+.header-img{
+  width: 99%;
+  height: 100px;
 }
 
 .img {
