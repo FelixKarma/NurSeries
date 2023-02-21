@@ -1,11 +1,13 @@
+body {
+    background-size: 100%;
+    background-image: url("../image/404.jpeg")
+}
 
-body{
-    background-color:black;
+.OnePiece-404 {
+    text-align: center;
 }
-.OnePiece-404{
-text-align: center;
-}
-h1{
+
+h1 {
     color: white;
     text-align: center;
     font-size: 100px;
