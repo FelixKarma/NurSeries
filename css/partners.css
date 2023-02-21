@@ -34,7 +34,12 @@ animation: Scroll 22s linear infinite;
     
 }
 
-img {
+.main-img {
         width: 260px;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
