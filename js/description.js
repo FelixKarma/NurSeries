@@ -85,7 +85,7 @@ let reponse;
 
 if (document.location.href.includes('description.html#')) {
     for (const description of descriptions) {
-        if (document.location.href.includes(description)) {
+        if (document.location.href.includes(description.nom)) {
             title.innerText = `${description.nom}`;
             note.innerText = `${description.note}`;
             annee.innerText = `${description.annee}`;
@@ -104,8 +104,8 @@ if (document.location.href.includes('description.html#')) {
         }
     }
     if (!reponse) {
-        document.location.href = "404.html";
+        // document.location.href = "Page 404.html";
     }
 } else {
-    document.location.href = "404.html";
+    document.location.href = "Page 404.html";
 }
