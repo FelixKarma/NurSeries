@@ -22,6 +22,7 @@ div.a {
     justify-content: space-between;
     align-items: center;
     
+    
 }
 
 .quiz-hearder {
@@ -77,4 +78,10 @@ button:focus {
 
 .flex{
     display: flex;
+}
+
+.ab,.cd{
+    justify-content: space-around;
+    align-items: center;
+    padding:20px ;
 }
