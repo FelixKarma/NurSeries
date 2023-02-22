@@ -13,11 +13,12 @@ class Description {
         this.diffuseur = diffuseur;
         this.synopsis = synopsis;
         this.image = image;
+        
     }
 }
 
 let descriptions = [
-    new Description("Game of Thrones", 1.8, "2011-2019", "Fantasy, Drame, Aventure", 50, 8, true, "David Benioff et D.B. Weiss", "USA", "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington, Sophie Turner, Maisie Williams, Nikolaj Coster-Waldau, Iain Glen ...", "HBO", "Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. Après un été de dix années, un hiver rigoureux s'abat sur le Royaume avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le continent pour s'emparer du Trône de Fer, le symbole du pouvoir absolu.","https://fr.web.img3.acsta.net/c_310_420/pictures/23/01/03/14/13/0717778.jpg"),
+    new Description("Game of Thrones", 1.8, "2011-2019", "Fantasy, Drame, Aventure", 50, 8, true, "David Benioff et D.B. Weiss", "USA", "Peter Dinklage, Lena Headey, Emilia Clarke, Kit Harington, Sophie Turner, Maisie Williams, Nikolaj Coster-Waldau, Iain Glen ...", "HBO", "Il y a très longtemps, à une époque oubliée, une force a détruit l'équilibre des saisons. Dans un pays où l'été peut durer plusieurs années et l'hiver toute une vie, des forces sinistres et surnaturelles se pressent aux portes du Royaume des Sept Couronnes. Après un été de dix années, un hiver rigoureux s'abat sur le Royaume avec la promesse d'un avenir des plus sombres. Pendant ce temps, complots et rivalités se jouent sur le continent pour s'emparer du Trône de Fer, le symbole du pouvoir absolu.","../image/gots1.jpg"),
 
     new Description("Stranger Things", 4.8, "2016-", "Drame, Fantastique, Thriller", 55, 5, false, "Matt Duffer et Ross Duffer", "USA", "Millie Bobby Brown, Winona Ryder, David Harbour ...", "Netflix", "A Hawkins, en 1983 dans l'Indiana. Lorsque Will Byers disparaît de son domicile, ses amis se lancent dans une recherche semée d’embûches pour le retrouver. Dans leur quête de réponses, les garçons rencontrent une étrange jeune fille en fuite. Les garçons se lient d'amitié avec la demoiselle tatouée du chiffre '11' sur son poignet et au crâne rasé et découvrent petit à petit les détails sur son inquiétante situation. Elle est peut-être la clé de tous les mystères qui se cachent dans cette petite ville en apparence tranquille… ","https://fr.web.img2.acsta.net/c_310_420/pictures/22/05/18/14/31/5186184.jpg"),
 
@@ -57,9 +58,9 @@ let descriptions = [
 
     new Description("Big Bang Theory", 0.4, "2007-2019", "Comédie", 22, 12, true, " Bill Prady et Chuck Lorre", "USA", "Johnny Galecki, Jim Parsons, Kaley Cuoco", "En Streaming", " Leonard et Sheldon pourraient vous dire tout ce que vous voudriez savoir à propos de la physique quantique. Mais ils seraient bien incapables de vous expliquer quoi que ce soit sur la vie 'réelle', le quotidien ou les relations humaines... Mais tout va changer avec l'arrivée de la superbe Penny, leur voisine. Ce petit bout de femme, actrice à ses heures et serveuse pour le beurre, va devenir leur professeur de vie ! ","https://fr.web.img3.acsta.net/c_310_420/pictures/18/11/06/15/36/0408812.jpg"),
 
-    new Description("Les Simpsons", 4.5, "1989-", "Comédie, Animation", 22, 36, false, "Matt Groening", "USA", "Harry Shearer, Dan Castellaneta, Hank Azaria", "Disney+", "Les Simpson, famille américaine moyenne, vivent à Springfield.Homer, le père, a deux passions: regarder la télé et boire des bières.Mais son quotidien est rarement reposant, entre son fils Bart qui fait toutes les bêtises possibles, sa fille Lisa qui est une surdouée, ou encore sa femme Marge qui ne supporte pas de le voir se soûler à longueur de journée.","https://fr.web.img3.acsta.net/c_310_420/pictures/20/10/01/11/26/1905965.jpg"),
+    new Description("Les Simpson", 4.5, "1989-", "Comédie, Animation", 22, 36, false, "Matt Groening", "USA", "Harry Shearer, Dan Castellaneta, Hank Azaria", "Disney+", "Les Simpson, famille américaine moyenne, vivent à Springfield.Homer, le père, a deux passions: regarder la télé et boire des bières.Mais son quotidien est rarement reposant, entre son fils Bart qui fait toutes les bêtises possibles, sa fille Lisa qui est une surdouée, ou encore sa femme Marge qui ne supporte pas de le voir se soûler à longueur de journée.","https://fr.web.img3.acsta.net/c_310_420/pictures/20/10/01/11/26/1905965.jpg"),
 
-    new Description("The Office", 3.2, "2001-2003", "Comédie", 22, 2, true, "Ricky Gervais, Stephen Merchant", "UK", "Sandy Hendrickse, Jane Lucas, Jamie Deeks", "En Streaming", "La vie de bureau d'une petite entreprise de papeterie, dirigé par David Brent, 'le pire patron du monde'. Un lieu propice au mauvais esprit, à la drague et à l'échec personnel... ", "https://fr.web.img4.acsta.net/c_310_420/medias/nmedia/18/36/08/68/18451023.jpg"),
+    new Description("The Office", 3.2, "2005-2013", "Comédie", 22, 9, true, " Greg Daniels, Ricky Gervais, Paul Lieberstein", " USA", "Steve Carell, Rainn Wilson, John Krasinski", " En Streaming", "Le quotidien d'un groupe d'employés de bureau dans une fabrique de papier en Pennsylvanie, lieu propice au mauvais esprit, à la drague et à l'échec personnel. Michael, le responsable régional, pense être le mec le plus drôle du bureau. Il ne se doute pas que ses employés le tolèrent uniquement parce que c'est lui qui signe les chèques. S'efforçant de paraître cool et apprécié de tous, Michael est en fait perçu comme étant pathétique... ", "https://fr.web.img5.acsta.net/r_1280_720/pictures/14/02/04/13/20/128334.jpg"),
 
     new Description("Malcolm", 0.6, "2000-2006", "Comédie", 22, 7, true, "Linwood Boomer", "USA", "Frankie Muniz, Jane Kaczmarek, Bryan Cranston", "Disney+", "Petit génie malgré lui, Malcolm vit dans une famille hors du commun. Le jeune surdoué n'hésite pas à se servir de son intelligence pour faire les 400 coups avec ses frères. Et les parents tentent tant bien que mal de canaliser l'énergie de ces petits démons.", "https://fr.web.img6.acsta.net/c_310_420/pictures/19/07/04/09/54/2363561.jpg"),
 
@@ -93,7 +94,7 @@ if (document.location.href.includes('description.html#')) {
             genre.innerText = `${description.genre}`;
             duree.innerText = `${description.duree}`;
             nbSaison.innerText = `${description.nbSaison}`;
-            isFinish.innerText = description.isFinish ? "(Terminé)" : "(En Cours)";
+            isFinish.innerText = description.isFinish ? " (Terminée)" : " (En Cours)";
             createur.innerText = `${description.createur}`;
             pays.innerText = `${description.pays}`;
             acteurs.innerText = `${description.acteurs}`;
