@@ -3,9 +3,9 @@ body {
     background-size: cover;
 }
 
-div.a {
+/* div.a {
     text-align: center;
-}
+} */
 
 .quiz-container {
     background-color: #d8d028;
@@ -14,7 +14,7 @@ div.a {
     width: 600px;
     overflow: hidden;
     border: 4px solid #a9b6b8;
-    position: absolute;
+    ;
     top: 25%;
     left: 30%;
     opacity: 70%;
@@ -84,4 +84,16 @@ button:focus {
     justify-content: space-around;
     align-items: center;
     padding:20px ;
+}
+
+.mar-top{
+    margin: 10px;
+    text-align: center;
+}
+
+.milieu 
+{display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }

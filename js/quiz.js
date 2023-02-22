@@ -126,9 +126,9 @@ submitBtn.addEventListener('click', () => {
         } else {
             quiz.innerHTML = `
             <h2>Vous avez répondu correctement à ${score}/${quizData.length} questions !
-            <button onclick="location.reload()">Reload</button>
-            <a href="Pages bonne réponses.html"><button>Voir les bonnes réponses</button></a>
-            <a href="acceuil.html"><button >Retour à la page d'accueil</button></a>
+            <button class="mar-top" onclick="location.reload()">Reload</button>
+            <a class="mar-top" href="../view/reponses.html"><button>Voir les bonnes réponses</button></a>
+            <a class="mar-top" href="../view/accueil.html"><button >Retour à la page d'accueil</button></a>
             `
         }
     }

@@ -217,7 +217,7 @@ input:nth-of-type(10):checked~main#carousel {
 }
 
 
-.banner {
+/* .banner {
 	background:white;
 	position:relative;
 	width:300px;
@@ -247,5 +247,5 @@ background-image: url("../img/actualités/db5ffddc394baffe1ecfe816317a45b2_fgrap
 	color:white;
 	font-size:20px;
 /* 	transform:scale(0.8);*/
-	will-change:transform; 
-}
+	/* will-change:transform; 
+} */

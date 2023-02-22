@@ -1,5 +1,4 @@
-let nomSeries = ["game of thrones", "doctor who", "alice",
-    "stargate", "the expanse", "dark", "vikings", "sons of anarch", "la casa de papel", "the last of Us", "the walking dead", "the haunting of hill house", "american horror story", "sherlock", "the wire", "the sinner", "big bang theory", "les simpsons", "the office", "malcolm", "peaky blinders", "chernobyl"];
+let nomSeries = ["Game of Thrones", "Stranger Things", "Lost", "Buffy", "Alice in Borderland", "Doctor Who", "Stargate", "The Expanse", "Dark", "Vikings", "Sons of Anarchy", "La Casa de Papel", "The Last of Us", "The Walking Dead", "The Haunting of Hill House", "American Horror Story", "Sherlock", "The Wire", "The Sinner", "Big Bang Theory", "Les Simpson", "The Office", "Malcolm", "Peaky Blinders", "Chernobyl"];
 
 // Récupération du mot recherché
 
@@ -17,15 +16,16 @@ search.addEventListener("keydown", function (event) {
         for (let nomSerie of nomSeries) {
 
             // comparaison si la recherche egale a la liste tableau 
-
-            if (nomSerie == recherche) { //On compare la recherche avec les différents éléments du tableau
+            if (nomSerie.toLowerCase() == recherche.toLowerCase()) { //On compare la recherche avec les différents éléments du tableau
 
 
                 //On redirige vers la page recherchée si trouvée
                 // document.location.assign(`${nomSerie}.html`);  // exco precedent 
-
-                document.location.assign(`description.html#${nomSerie}`);
-
+                let url = nomSerie.replace(/ /g, "%20");
+                document.location.href = `description.html#${url}`;
+                if (document.location.href.includes('description.html#')) {
+                    location.reload()
+                }
                 //On passe reponse à true pour dire que c'est bon
                 reponse = true;
                 //On break pour casser la boucle for, au cas où on a plusieurs éléments dans le tableau après le resultat trouvé
@@ -34,7 +34,7 @@ search.addEventListener("keydown", function (event) {
         }
         //On check enfin si la reponse est false pour renvoyer vers 404
         if (!reponse) {
-            document.location.href = "404.html";
+            document.location.href = "Page 404.html";
         }
     }
 
