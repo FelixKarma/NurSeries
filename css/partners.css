@@ -36,8 +36,13 @@ animation: Scroll 25s linear infinite;
     
 }
 
-img {
+.main-img {
         width: 260px;
         margin-right: 50px;
 }
 
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

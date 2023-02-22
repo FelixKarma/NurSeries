@@ -22,7 +22,7 @@ body{
     font-size: larger;
 }
 .div{
-    margin-left: 0px;
+    margin-left: 180px;
     /* margin-right: 300px; */
     margin-top: 20px;
 }
@@ -34,7 +34,7 @@ body{
     font-size: larger;
     
 }
-input{
+.input{
     margin-left: 300px;
 }
 

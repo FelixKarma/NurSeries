@@ -18,6 +18,10 @@ div.a {
     top: 25%;
     left: 30%;
     opacity: 70%;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
 
@@ -31,18 +35,21 @@ h2 {
     margin: 0;
 }
 
-ul {
+ul{
     list-style-type: none;
     padding: 0;
 }
+ 
 
-ul li {
+
+li {
     font-size: 1.2rem;
     margin: 1rem 0;
     background-color: #a9b6b8;
+  content: none;
 }
 
-ul li label {
+li label {
     cursor: pointer;
 }
 
@@ -71,4 +78,10 @@ button:focus {
 
 .flex{
     display: flex;
+}
+
+.ab,.cd{
+    justify-content: space-around;
+    align-items: center;
+    padding:20px ;
 }
