@@ -85,27 +85,28 @@ let reponse;
 
 if (document.location.href.includes('description.html#')) {
     for (const description of descriptions) {
-        if (document.location.href.includes(description)) {
+        let url = description.nom.replace(/ /g, "%20");
+        if (document.location.href.includes(url)) {
             title.innerText = `${description.nom}`;
             note.innerText = `${description.note}`;
             annee.innerText = `${description.annee}`;
             genre.innerText = `${description.genre}`;
             duree.innerText = `${description.duree}`;
             nbSaison.innerText = `${description.nbSaison}`;
-            isFinish.innerText = `${description.isFinish}`;
+            isFinish.innerText = description.isFinish ? "(Terminé)" : "(En Cours)";
             createur.innerText = `${description.createur}`;
             pays.innerText = `${description.pays}`;
             acteurs.innerText = `${description.acteurs}`;
             diffuseur.innerText = `${description.diffuseur}`;
             synopsis.innerText = `${description.synopsis}`;
-            image.innerText = `${description.image}`;
+            image.src = `${description.image}`;
             reponse = true;
             break;
         }
     }
     if (!reponse) {
-        document.location.href = "404.html";
+        document.location.href = "Page 404.html";
     }
 } else {
-    document.location.href = "404.html";
+    document.location.href = "Page 404.html";
 }

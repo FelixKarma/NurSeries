@@ -67,8 +67,8 @@ window.onload = function () {
         upvoteCount.innerText = upvote;
       }, false);
   
-      var replyBtn = document.createElement('a');
-      replyBtn.href = '#';
+      var replyBtn = document.createElement('p');
+      // replyBtn.href = '#';
       replyBtn.className = 'reply-btn';
       replyBtn.innerText = 'Répondre';
   

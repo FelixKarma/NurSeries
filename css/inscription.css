@@ -1,14 +1,13 @@
 body {
 
-  background-image: url("../image/doctor who3.jpg");
-  background-size: 1680px 900px;
+  background-image: url("../image/doctor who6.jpg");
+  background-size: 1920px 1080px
   font: 1rem 'Fira Sans', sans-serif;
   margin: 0;
   background-attachment: fixed;
-}
-
+}                  
 h1 {
-  font-family: 'Rammetto One Sans', sans-serif;font-display: ;
+  font-family: 'Rammetto One Sans', sans-serif;
   font-size: 80px;
   text-align: center;
   color: rgb(4, 0, 16);
@@ -22,7 +21,7 @@ body {
 }
 
 .box {
-  max-width: 100vw;
+  max-width: 120vw;
   padding: 30px;
   margin: 0 auto;
   position: relative;
@@ -30,7 +29,7 @@ body {
   font-size: 0px;
   line-height: 1.5;
   transform: translateY(-50%);
-  perspective: 400px;
+  perspective: 500px;
 }
 
 .source {
@@ -39,11 +38,11 @@ body {
 }
 
 .div {
-  font: 1rem 'monoton', sans-serif;
+  font: 1rem 'roboto', sans-serif;
 
   color: azure;
   text-align: left;
-  width: 300px;
+  width: 400px;
 }
 
 .centrer {
@@ -51,20 +50,18 @@ body {
 }
 
 p {
-  font: 1rem 'monoton', sans-serif;
-
+  font: 1rem 'roboto', sans-serif;
+  
   font-size: 18px;
   font-style: italic;
   font-weight: bold;
-  /* text-align: center; */
-  color: rgb(1, 2, 0);
-  max-width: 500px;
+  color: rgb(0, 59, 111);
+  max-width: 400px;
 }
-
 
 .pseudo {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -72,12 +69,12 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 }
 
 .nom {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -85,12 +82,12 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 }
 
 .prenom {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -98,13 +95,13 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 
 }
 
 .DdN {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -112,12 +109,12 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 }
 
 .mail {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -125,12 +122,12 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 }
 
 .password {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -138,12 +135,12 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 }
 
 .password {
   border-radius: 15px;
-  font-size: 25px;
+  font-size: 18px;
   text-align: left;
   display: block;
   padding: auto;
@@ -151,7 +148,7 @@ p {
   margin-right: auto;
   color: white;
   width: 300px;
-  background-color: #3b2eea;
+  background-color: #003b6f;
 }
 
 .valider {
@@ -169,6 +166,6 @@ p {
 }
 
 .valider:hover {
-  color: rgb(0, 0, 0);
-  background-color: white;
+  color: rgb(245, 245, 245);
+  background-color: #003b6f;
 }
