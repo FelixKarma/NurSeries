@@ -146,3 +146,7 @@ body {
     margin-left: 10px;
     font-size: 0.8em;
 }
+
+.comment-feature .reply-btn:hover {
+    cursor: pointer;
+}
