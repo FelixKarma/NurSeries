@@ -1,2 +1,17 @@
-{body 
-background-image: url()}
+body{ 
+background-image: url("../image/tv_saul1a.webp");
+background-size: cover;
+}
+
+.reponses {
+ background-color: #d8d028;
+ border-radius: 10px;
+ box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+ width: 600px;
+ overflow: hidden;
+ border: 4px solid #a9b6b8;
+ position: absolute;
+ top: 25%;
+ left: 30%;
+ opacity: 70%;
+}
