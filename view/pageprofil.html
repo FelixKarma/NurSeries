@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/pageprofil.css" />
+        <link rel="stylesheet" href="../css/header.css" />
+        <title>Page-Profil</title>
+</head>
+
+<body>
+        <nav class="flex-row align-center">
+                <img class="opa img" src="../img/header/Logo NurSERIE.png" height="120" alt="" />
+                <div class="width-ecran">
+                        <div class="flex-row justify-around align-center">
+                                <a href="connexion.html"><button class="taille borde">connexion</button>
+                                </a>
+                                <a href="inscription.html"><button class="taille borde">Inscription</button>
+                                </a>
+                        </div>
+
+                        <div class="flex-row">
+                                <img class="header-img" src="../img/header/Bandes cinémas.png" alt="" />
+                        </div>
+
+                        <div class="text-center">
+                                <input id="searchbar" type="text" name="search" placeholder="Search séries.."
+                                        value="" />
+                        </div>
+                </div>
+                <img src="../image/logo NurSÉRIE.png " height="70" width="70" alt="" />
+        </nav>
+
+
+
+<main>
+
+        <div class="Container-Profil " id="profil">
+                <div class="flex-row">
+
+                        <div class="avatar">
+                                <img class="img" src="../image/avatar_zoro.jpg " height="250" width="200" alt="" />
+                                
+                                <a href="contact"><button class="contact">contact</button> </a>
+                        </div>
+                        <div class="profil">
+                                
+                                <form class="form">
+                                        <input type="text " class="pseudo" placeholder="Pseudo*" required>
+                                        
+                                        <input type="text" class="point" placeholder="point Quiz*" required>
+                                        
+                                        <input type="password " class="passe " placeholder="mot de passe *" required>
+                                        
+                                        
+                                        <div class="valid-suprim">
+                                                <button type="submit" class="modifier  ">modifier</button>
+                                                <button type="reset" class="supprimer">supprimer</button>
+                                        </div>
+                                </form>
+                                
+                                
+                        </div>
+                </div>
+                
+                <textarea class="textarea" name="" id="description" cols="30" rows="10"></textarea>
+                
+                <div class="">
+                        <button id="submit" class="Envoyer envoie ">Envoyer</button>
+                </div>
+        </div>
+</main>
+        <script src="../js/pageprofil.js" type="text/javascript"></script>
+
+
+
+
+</body>
+
+</html>
