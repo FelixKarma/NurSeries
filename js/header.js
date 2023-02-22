@@ -34,7 +34,7 @@ search.addEventListener("keydown", function (event) {
         }
         //On check enfin si la reponse est false pour renvoyer vers 404
         if (!reponse) {
-            document.location.href = "404.html";
+            document.location.href = "Page 404.html";
         }
     }
 

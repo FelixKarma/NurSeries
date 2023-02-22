@@ -44,7 +44,7 @@ body {
 
   .top{
     margin-top: 150px;
-    margin-left: 280px;
+    margin-left: 18%;
     /* display: flex;
     justify-content: flex-start; */
   }
@@ -60,20 +60,17 @@ body {
  }
  article{
     background-color: white;
-    margin-right:200px ;
-    margin-left: 65px;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    margin-top: 5px;
+    width: 75%;
     /* display: flex;
     align-items: flex-start; */
  }
  aside{
   min-width: 280px;
   font-size: 20px;
-  /* border-right: solid  #54545463;
-  border-width: 1px; */
+
  }
 hr{
     color: #F5F5F5;
@@ -89,7 +86,6 @@ hr{
 }
 section {
   background-color: white;
-  /* width: 280px; */
   padding: 15px;
   padding-top: 1px;
   display: flex;
