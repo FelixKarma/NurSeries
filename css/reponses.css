@@ -15,3 +15,10 @@ background-size: cover;
  left: 30%;
  opacity: 70%;
 }
+
+.centrer-reponses{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+
+}

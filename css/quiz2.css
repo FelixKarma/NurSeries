@@ -97,3 +97,9 @@ button:focus {
     margin-top: 100px;
     margin-bottom: 40px;
 }
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
