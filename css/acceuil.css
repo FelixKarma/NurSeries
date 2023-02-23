@@ -3,10 +3,11 @@
     width:300px;
     font-size: 2rem;
 }
-button{
+.button{
 color: chartreuse;
 font-family: 'Assistant', sans-serif;
 margin :10px;
+margin-bottom: 10%;
 
 }
 
@@ -33,19 +34,28 @@ body{
 
 .deplacementbouton{
     position: absolute;
-    top: 95%;
+    top: 50%;
     left: 2%;
-    /* margin-bottom: ; */
+    /* margin-bottom: 50%; */
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+    
 }
 
 .deplacementbouton2{
     position: absolute;
-    top: 95%;
-    right: 2%;
+     top: 50%; 
+     right: 2%;
+    margin-bottom: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-bottom: 50%; */
  } 
 
 /* surkignement  passage curseur  */
- button:hover{ 
+ .button:hover{ 
 
     color: rgb(6, 6, 6); 
     background-color: rgb(140, 68, 9); 
@@ -53,4 +63,10 @@ body{
 
  a{
     text-decoration: none;  /* enleve le trait bleu entre les boutons  */
+ }
+
+ footer{
+    position: absolute;
+bottom: 0%;
+width: 100%;
  }

@@ -8,7 +8,20 @@ body {
     background-size: cover;
     position: relative;
     font-family: 'Roboto', sans-serif;
+    cursor: url ("https://image.similarpng.com/very-thumbnail/2021/06/Cartoon-Axe-on-transparent-background-PNG.png");
 }
+
+.fly { 
+    font-size: 12px;
+    color: #AAA;
+    display: block;
+    padding: 1em;
+    margin: 0;
+    line-height: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
 
 
 
