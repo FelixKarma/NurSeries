@@ -13,7 +13,7 @@ body {
   /* position: absolute; */
   top: 15%;
   left: 24%;
-  opacity: 70%;
+  opacity: 90%;
   height: 780px;
   margin-top: 20px;
   margin-bottom: 15%;
@@ -134,7 +134,7 @@ main {
   background-color: #f1f145;
   box-shadow: 0 0 10px 40px gray(239, 22, 22, 0.1);
   opacity: 70%;
-  margin-top: 20px;
+  margin-top: 50px;
   margin-bottom: 1px;
   margin-left: 20px;
   width: 800px;
