@@ -28,7 +28,7 @@ section:hover {
     height: 400px;
 }
 
-img {
+.picture {
     width: 200px;
     height: 200px;
     position: absolute;
