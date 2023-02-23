@@ -51,8 +51,7 @@ main {
 }
 
 .pseudo,
-.point,
-.passe {
+.password {
   align-items: center;
   border-radius: 150px;
   opacity: 100%;
@@ -134,7 +133,7 @@ main {
   background-color: #f1f145;
   box-shadow: 0 0 10px 40px gray(239, 22, 22, 0.1);
   opacity: 70%;
-  margin-top: 50px;
+  margin-top: 0px;
   margin-bottom: 1px;
   margin-left: 20px;
   width: 800px;
